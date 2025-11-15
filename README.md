@@ -18,4 +18,18 @@ It does not post, vote, message, or interact with users in any way.
 - r/CryptoMarkets
 
 ## Installation
+pip install -r requirements.txt
 
+## Usage
+Set your Reddit API credentials as environment variables:
+export CLIENT_ID="your_client_id"
+export CLIENT_SECRET="your_client_secret"
+export USER_AGENT="CryptoReader by u/Fit_Bid9619"
+
+Then run:
+python app.py
+
+## Notes
+- This app only reads public data.
+- No private data or user interactions are performed.
+- This project complies fully with Reddit API Terms of Service.
